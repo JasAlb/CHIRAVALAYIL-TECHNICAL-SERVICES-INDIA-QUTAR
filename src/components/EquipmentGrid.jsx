@@ -7,18 +7,25 @@ import {
 } from 'lucide-react'
 
 const equipmentCategories = [
+  
   {
-    title: 'Auto UT Systems',
+    title: 'Ultrasonic Testing (UT)',
     icon: Radio,
-    items: ['Silverwing RMS', 'B-Scan', 'AUT Solutions', 'Jireh Scanners'],
+    items: ['Krautkramer', 'Sonatest', 'Olympus', 'EECI','SUIUI'],
   },
   {
     title: 'Magnetic Flux Leakage (MFL)',
     icon: Magnet,
     items: [
-      'Floor Mapping: Silverwing, MFE',
-      'Hand/Pipe Scanners: Silverwing, 3P',
+      'MFL Floor Mapping: Silverwing, MFE',
+      'MFL Hand Scanners : Silverwing, 3P',
+      'MFL Pipe Scanners : Silverwing, 3P'
     ],
+  },
+  {
+    title: 'Auto UT Systems',
+    icon: Radio,
+    items: ['Silverwing RMS', 'B-Scan', 'AUT Solutions', 'Jireh Scanners'],
   },
   {
     title: 'Advanced Tube Inspection',
